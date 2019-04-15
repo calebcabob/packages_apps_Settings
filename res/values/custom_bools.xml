@@ -16,6 +16,11 @@
 
 <resources>
 
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
+
+
     <!-- Whether to show a check box or switch for manual provision -->
     <bool name="config_custom_multi_sim_checkbox">false</bool>
 
