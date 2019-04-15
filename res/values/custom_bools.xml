@@ -20,10 +20,6 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
-
-    <!-- Whether to show a check box or switch for manual provision -->
-    <bool name="config_custom_multi_sim_checkbox">false</bool>
-
     <!-- Whether notify user that switch data service -->
     <bool name="confirm_to_switch_data_service">false</bool>
 
