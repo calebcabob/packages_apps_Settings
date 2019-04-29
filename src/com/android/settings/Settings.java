@@ -184,4 +184,5 @@ public class Settings extends SettingsActivity {
     public static class PulseSettingsActivity extends SettingsActivity {}
     public static class StockNavigationActivity extends SettingsActivity {}
     public static class CustomHeadersActivity extends SettingsActivity {}
+    public static class SwipeToNotificationSettingsActivity extends SettingsActivity{}
 }
