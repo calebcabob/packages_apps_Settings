@@ -321,6 +321,7 @@ public class SettingsGateway {
             Settings.FlingSettingsActivity.class.getName(), 
             Settings.PulseSettingsActivity.class.getName(),
             Settings.StockNavigationActivity.class.getName(),
-            Settings.CustomHeadersActivity.class.getName()
+            Settings.CustomHeadersActivity.class.getName(),
+            Settings.SwipeToNotificationSettingsActivity.class.getName()
     };
 }
