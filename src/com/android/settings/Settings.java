@@ -185,4 +185,5 @@ public class Settings extends SettingsActivity {
     public static class StockNavigationActivity extends SettingsActivity {}
     public static class CustomHeadersActivity extends SettingsActivity {}
     public static class SwipeToNotificationSettingsActivity extends SettingsActivity{}
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }

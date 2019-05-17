@@ -143,6 +143,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aquarios.coralreef.CoralReef;
 import com.aquarios.coralreef.fragments.CustomHeaders;
+import com.aquarios.coralreef.fragments.SmartPixels;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 public class SettingsGateway {
@@ -276,7 +277,8 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             PulseSettings.class.getName(),
             SwipeUpGestureSettings.class.getName(),
-            CustomHeaders.class.getName()
+            CustomHeaders.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -322,6 +324,7 @@ public class SettingsGateway {
             Settings.PulseSettingsActivity.class.getName(),
             Settings.StockNavigationActivity.class.getName(),
             Settings.CustomHeadersActivity.class.getName(),
-            Settings.SwipeToNotificationSettingsActivity.class.getName()
+            Settings.SwipeToNotificationSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
