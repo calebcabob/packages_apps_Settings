@@ -123,6 +123,7 @@ import com.aquarios.coralreef.fragments.PowerMenu;
 import com.aquarios.coralreef.fragments.QsPanelLayout;
 import com.aquarios.coralreef.fragments.QuickSettings;
 import com.aquarios.coralreef.fragments.Recents;
+import com.aquarios.coralreef.fragments.SmartPixels;
 import com.aquarios.coralreef.fragments.TrafficIndicators;
 import com.aquarios.coralreef.fragments.VolumeRocker;
 import com.aquarios.coralreef.fragments.VolumeSteps;
@@ -241,6 +242,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(QsPanelLayout.class);
         addIndex(QuickSettings.class);
         addIndex(Recents.class);
+        addIndex(SmartPixels.class);
         addIndex(TrafficIndicators.class);
         addIndex(VolumeRocker.class);
         addIndex(VolumeSteps.class);
